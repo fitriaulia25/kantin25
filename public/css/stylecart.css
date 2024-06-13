@@ -1,0 +1,125 @@
+.card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column; /* Mengatur elemen dalam kolom */
+    align-items: center; /* Pusatkan elemen secara horizontal */
+    justify-content: center; /* Pusatkan elemen secara vertikal */
+    text-align: center; /* Pusatkan teks di dalam card */
+}
+
+.product-image {
+    max-width: 100px;
+    border-radius: 10px;
+    margin-bottom: 20px; /* Menambah ruang di bawah gambar */
+}
+
+.product-info {
+    flex: 1;
+    text-align: center; /* Pusatkan teks di dalam product-info */
+}
+
+.product-name {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.product-price,
+.product-quantity,
+.product-total {
+    margin: 0;
+}
+
+.total-cart {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.checkout-button {
+    background-color: #6196A6;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.update-button {
+    background-color: #ADBC9F;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.empty-cart {
+    font-size: 18px;
+    margin-top: 20px;
+    text-align: center; /* Pusatkan teks empty-cart */
+}
+
+.back-link {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #5da1b6;
+    font-size: 16px;
+    text-align: center; /* Pusatkan teks back-link */
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
+
+/* Styling for Quantity Form */
+.quantity-form {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Pusatkan konten di dalam quantity-form */
+}
+
+/* Styling for Remove Button */
+.remove-button {
+    background-color: #d8b583;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 10px; /* Menambah jarak antara input quantity dan remove button */
+}
+
+.remove-button:hover {
+    background-color: #d8b583;
+}
+
+/* Styling for Quantity Input */
+.quantity-input {
+    width: 60px;
+    height: 40px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    padding: 0 12px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.quantity-input:focus {
+    border-color: #4d90fe; /* Mengubah warna border saat fokus */
+}
+
+/* Additional Styling for Main Content */
+.main-content {
+    margin-top: 20px;
+    text-align: center; /* Pusatkan konten di dalam main-content */
+}
